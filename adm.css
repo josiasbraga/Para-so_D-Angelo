@@ -1,9 +1,20 @@
-body {
-    background:#4c5353;
+.admin__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
 }
+
+.admin__header {
+    width: 100%;
+}
+
+
 .fonte{
     font-weight: bold;
 }
+
 h1{
     background:  #271600;
     font-size: 16px;
@@ -20,19 +31,15 @@ h2{
     padding: 1% 0% 2% 0% ;
     margin: 0,1;
 }
-.styleform{
+.admin__form{
     background-color: rgb(248, 246, 246);
     max-width: 300px;
     border: 10px;
     width:100%;
     padding: 15px 10px 15px 10px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
 }
-.styleform input[type=text],
-.styleform input[type=password]{
+
+.admin__input {
     width: 90%;
     height: 25px;
     border: 1px solid #ccc;
@@ -40,7 +47,7 @@ h2{
     margin: 10px 10px;
     border-radius: 5px;
 }
-.styleform input[type=button]{
+.admin__button {
     width: 94%;
     height: 30px;
     cursor: pointer;
@@ -69,10 +76,12 @@ h2{
     padding: 15%; 
     text-align: center;
 }
-footer{
+
+.admin__footer{
     text-align: center;
     font-size: 13px;
     color: white;
-    margin-bottom: 2%;
-    padding-top: 2%;
+    background:#4c5353;
+    width: 100%;
+    padding: 30px 0;
 }
