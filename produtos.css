@@ -1,0 +1,50 @@
+.lista {
+    display: flex;
+    justify-content: space-between;    
+    padding: 15px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lista:nth-child(even) {background: #CCC}
+.lista:nth-child(odd) {background: #FFF}
+
+.lista__text--bold{
+    font-weight: bold;
+}
+
+.lista__primeiro {
+    width: 10%;
+}
+
+.lista__segunda {
+    width: 60%;
+}
+
+.lista__terceira     {
+    width: 30%;
+}
+
+.lista__terceira--item{
+    width: 10%;
+}
+
+.lista__quarta--item {
+    display: flex;
+    column-gap: 10px;
+    width: 20%;
+}
+.botutton1Cor{
+    border-radius: 5px;
+    border-color: blue;
+    background-color: blue;
+    width: 50%;
+    height: 30px;
+    color: white;
+}
+.botutton2Cor{
+    border-radius: 5px;
+    border-color: red;
+    background-color: red;
+    width: 50%;
+    height: 30px;
+    color: white;
+}
